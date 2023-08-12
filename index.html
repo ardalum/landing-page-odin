@@ -7,11 +7,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Landing Page The Project Odin</title>
+    <title>Vindatech &mdash; Landing page</title>
   </head>
   <body>
     <header class="header">
@@ -49,7 +58,7 @@
                 <img src="images/customer6.jpg" alt="customer photo" />
               </div>
               <div class="customer-text">
-                <p><span>100,000+ </span> customer are satisfied</p>
+                <p><span>More than 100,000</span> customers are satisfied</p>
               </div>
             </div>
           </div>
@@ -61,6 +70,184 @@
           </div>
         </div>
       </section>
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured">Trusted by great companies</h2>
+          <div class="logos">
+            <img src="images/microsoft.svg" alt="Microsoft logo" />
+            <img src="images/apple.svg" alt="Apple logo" />
+            <img src="images/google-1-1.svg" alt="Google logo" />
+            <img src="images/nvidia.svg" alt="Nvidia logo" />
+            <img src="images/amd-logo-1.svg" alt="AMD logo" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-testimonials">
+        <div class="testimonials">
+          <blockquote class="testimonial-text">
+            "Vindatech's solutions transformed our customer experience. We're
+            now masters at creating unforgettable interactions, thanks to their
+            tailored tools. They've become a trusted partner, always there to
+            support us. If you want excellence, choose Vindatech."
+          </blockquote>
+          <p>&mdash;Arvin Dalumpines</p>
+        </div>
+      </section>
+
+      <section class="section-cta">
+        <div class="container">
+          <div class="cta">
+            <h2 class="cta-heading">
+              Unlock the Power of Customer Experience Excellence with Vindatech!
+            </h2>
+            <p class="cta-text">
+              Elevate your business with our tailored solutions and tools,
+              meticulously designed to create extraordinary and unforgettable
+              customer experiences. Start shaping a brighter future for your
+              brand today!
+            </p>
+          </div>
+          <form class="cta-form">
+            <div>
+              <label for="full-name">Full name</label>
+              <input
+                id="full-name"
+                type="text"
+                placeholder="Arvin Dalumpines"
+                required
+              />
+            </div>
+            <div>
+              <label for="full-name">Email address</label>
+              <input
+                id="email"
+                type="email"
+                placeholder="ardalumpines@outlook.com"
+                required
+              />
+            </div>
+            <div>
+              <label for="select-where">Where did you hear from us?</label>
+              <select id="select-where">
+                <option value="">Please choose one option</option>
+                <option value="friends">Friends and Family</option>
+                <option value="youtube">YouTube</option>
+                <option value="podcast">Podcast</option>
+                <option value="ad">Facebook ad</option>
+                <option value="others">Others</option>
+              </select>
+            </div>
+
+            <button class="btn btn--form">Sign up now</button>
+          </form>
+        </div>
+      </section>
     </main>
+
+    <footer class="footer">
+      <div class="grid-footer">
+        <div class="logo-col">
+          <a class="footer-logo" href="#">
+            <img class="logo" src="images/logo1.png" alt="Vindatech logo" />
+          </a>
+          <ul class="social-links">
+            <li>
+              <a
+                class="footer-link"
+                href="https://www.instagram.com/paac.ka/"
+                target="_blank"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                href="https://www.facebook.com/arvin109/"
+                target="_blank"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                href="https://twitter.com/ardalump"
+                target="_blank"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+          <p class="copyright">
+            Copyright &copy; <span class="year">2023</span> by Vindatech, Inc.
+            All rights reserved
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              Epifanio de los Santos Avenue corner McKinley Road, San Lorenzo,
+              Makati, 1200 Metro Manila, Philippines
+            </p>
+
+            <p>
+              <a class="footer-link" href="+639952501125">+639952501125</a>
+              <br />
+              <a class="footer-link" href="mailto:info@vindatech.com"
+                >info@vindatech.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <div class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li>
+              <a class="footer-link" href="#">Create account</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">Sign in</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">iOS app</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">Android app</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li>
+              <a class="footer-link" href="#">About Vindatech</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">For consumers</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">Business partners</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">Careers</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li>
+              <a class="footer-link" href="#">Organizational structure</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">Help center</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">Privacy & Terms</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
